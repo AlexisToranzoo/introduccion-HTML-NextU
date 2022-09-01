@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>Opciones de evento</legend>
+            <label for="nombre" > nombre
+                <input type="text" placeholder="nombre" required>
+            </label>
+
+            <br>
+
+            <label for="tipo">Tipo</label><br>
+            <select name="tipo" multiple="true" required>
+               <option value="musico">Músico</option>
+               <option value="pintor">Pintor</option>
+               <option value="actor">Actor</option>
+            </select>
+            <br>
+            <label for="Disponibilidad">Disponibilidad
+           
+                <input type="radio" name="Disponibilidad" value="De lunes a viernes" required>
+                <label for="Semana">De lunes a viernes</label>
+           
+                <input type="radio" name="Disponibilidad" value="Fin de semana" required>
+                <label for="FinSemana">Fin de semana</label>
+            
+            </label>
+
+            <br>
+
+            <label for="Aceptar los Términos y Condiciones." required>
+                <input type="checkbox" id="terminos" required>
+                Aceptar los Términos y Condiciones.
+           
+            </label>
+            <br>
+
+            <label for="comentario" required>
+                <textarea placeholder="comentario...." ></textarea>
+            </label>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar"> 
+            <input type="reset" value="reiniciar"> 
+        </p>
+    </form>
+</body>
+
+</html>

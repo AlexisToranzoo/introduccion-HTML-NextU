@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Nombre de usuario (campo obligatorio)
+Email (campo obligatorio)
+Edad
+Género
+Recomendado por
+Comentarios
+Términos y Condiciones (campo obligatorio) 
+El formulario también debe incluir un botón de Registrar.
+Google, amigo, Redes Sociales.
+-->
+<form action="">
+    <fieldset>
+        <legend><h1>Registro</h1></legend>
+        <label for="nombre">Nombre
+            <input type="text" placeholder="Nombre" required>
+        </label>
+        <br>
+        <label for="email">Email
+            <input type="email" placeholder="Email" required>
+        </label>
+        <br>
+        <label for="edad">Edad
+            <input type="number" placeholder="edad" min="1" required>
+        </label>
+        <br>
+        <label for="genero">genero
+            <input type="radio" name="genero" value="masculino" required>
+            masculino
+            <input type="radio" name="genero" value="femenino" required>
+            femenino
+        </label>
+        <br>
+        <label for="recomendado">
+            <select required>
+                <option value="google">google</option>
+                <option value="amigo">amigo</option>
+                <option value="redessociales">redes sociales</option>
+            </select>
+        </label>
+        <br>
+        <label for="comentarios">
+            comentarios...
+        <textarea></textarea>
+        </label>
+        <br>
+        <label for="checkbox">
+            <input type="checkbox" required>
+            Términos y Condiciones
+        </label>
+        <br>
+    </fieldset>
+    <input type="submit" value="enviar"> 
+</form>
+</body>
+</html>
